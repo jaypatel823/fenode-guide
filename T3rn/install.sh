@@ -1,8 +1,8 @@
 #!/bin/bash
 
-echo "Showing HCA logo..."
-wget -O loader.sh https://raw.githubusercontent.com/FEdanish/Ramanode-Guides/main/loader.sh && chmod +x loader.sh && ./loader.sh
-curl -s https://raw.githubusercontent.com/FEdanish/Ramanode-Guides/main/logo.sh | bash
+echo "Showing FE logo..."
+wget -O loader.sh https://raw.githubusercontent.com/FEdanish/fenode-guide/main/loader.sh && chmod +x loader.sh && ./loader.sh
+curl -s https://raw.githubusercontent.com/FEdanish/fenode-guide/main/logo.sh | bash
 sleep 2
 
 echo "Welcome to the t3rn Executor Setup by feature earning!"
